@@ -90,6 +90,10 @@
 
 .product img {
   transition: .3s all;
+  /* width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  object-fit: cover; */
 }
 
 .product:hover img {
@@ -501,6 +505,30 @@
                               <button class="buy-btn text-uppercase">buy now</button>
                             </div>
                      <!-- for product  -->
+
+
+                     <!-- pagination pagination  -->
+                     <nav aria-label="...">
+                        <ul class="pagination">
+                          <li class="page-item">
+                            <a class="page-link" href="page_2.html">Previous</a>
+                          </li>
+
+                          <li class="page-item">
+                            <a class="page-link" href="page_1.html">1</a>
+                        </li>
+
+                          <li class="page-item" >
+                            <a class="page-link" href="page_2.html">2</a>
+                          </li>
+
+                          <li class="page-item active" aria-current="page"><a class="page-link" href="page_3.html">3</a></li>
+
+                          <li class="page-item disabled">
+                            <a class="page-link" href="page_3.html">Next</a>
+                          </li>
+                        </ul>
+                      </nav>
         </div>
   
       </section>
@@ -510,7 +538,8 @@
 
 
 
-          <!-- footer section  -->
+
+    <!-- footer section  -->
     <footer class="mt-5 py-5">
         <div class="row container mx-auto pt-5">
             <div class="footer-one col-lg-3 col-md-6 col-12 mb-5">
