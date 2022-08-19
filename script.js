@@ -17,3 +17,17 @@
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   }
+
+
+
+  // function srcfnc() {
+  //   location.replace("https://www.w3schools.com")
+  // }
+
+  // var input = document.getElementById("src_box");
+  // input.addEventListener("keypress", function(event) {
+  //   if (event.key === "Enter") {
+  //     event.preventDefault();
+  //     document.getElementById("src_btn").click();
+  //   }
+  // });
