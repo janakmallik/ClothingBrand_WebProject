@@ -103,6 +103,23 @@ footer a{
     text-decoration: none;
 }
 
+footer a:hover {
+    text-decoration: none;
+}
+
+h1 a {
+    text-decoration: none;
+    color:black;
+}
+
+h1 a:hover {
+    text-decoration: none;
+    /* color:rgb(58, 57, 57); */
+    color: black;
+    font-size: 110%;
+    transition: 100ms;
+}
+
 footer li{
     padding-bottom: 4px;
 }
