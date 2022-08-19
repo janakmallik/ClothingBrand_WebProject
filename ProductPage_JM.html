@@ -66,10 +66,58 @@
         h6{
             color: gray;
         }
+
+
+        /* featured product style  */
+.product {
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.product img {
+  transition: .3s all;
+}
+
+.product:hover img {
+  opacity: .7;
+}
+
+.product .buy-btn {
+  transform: translateY(30px);
+  opacity: 0;
+  transition: 0.3s all;
+  
+}
+
+.product:hover .buy-btn {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.star i {
+  /* font-size: .8rem; */
+  color: darkgray;
+  margin-bottom: 10px;
+}
+
+.product a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .product a:hover{
+    text-decoration: none;
+    color: black;
+  }
+/* featured product style  */
+
+
     </style>
 </head>
 
 <body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up-long"></i></button>
 
     <!-- navigation bar  -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
@@ -198,6 +246,89 @@
 </section>
 
 
+    <!-- Featured Product Featured Product Featured Product Featured Product Featured Product Featured Product Featured Product Featured Product Featured Product  -->
+    <section id="featured" class="my-5">
+        <div class="container text-center mt-2 py-5">
+          <h3 class="fs-1">Related Products</h3>
+        </div>
+  
+        <div class="row mx-auto container-fluid">
+           <!-- for product  -->
+          <div class="product mb-5 text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid mb-3" src="p_img/kids_jacket1.jpg">
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">
+              Kids T-shirt
+            </h5>
+            <h4 class="p-price">$29.00</h4>
+            <button class="buy-btn text-uppercase">buy now</button>
+          </div>
+   <!-- for product  -->
+  
+            <!-- for product  -->
+            <div class="product mb-5 text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid mb-3" src="p_img/women_jacket1.jpg">
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="p-name">
+                Kids T-shirt
+              </h5>
+              <h4 class="p-price">$29.00</h4>
+              <button class="buy-btn text-uppercase">buy now</button>
+            </div>
+     <!-- for product  -->
+  
+              <!-- for product  -->
+              
+              <div class="product mb-5 text-center col-lg-3 col-md-4 col-12">
+                <a href="ProductPage_JM.html"><img class="img-fluid mb-3" src="p_img/men_tshirt2.jpg">
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">
+                  Mens T-shirt
+                </h5>
+                <h4 class="p-price">$29.00</h4>
+                <button class="buy-btn text-uppercase">buy now</button></a>
+              </div>
+       <!-- for product  -->
+  
+                <!-- for product  -->
+                <div class="product mb-5 text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid mb-3" src="p_img/tracksuit_1.jpg">
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">
+                    Kids T-shirt
+                  </h5>
+                  <h4 class="p-price">$29.00</h4>
+                  <button class="buy-btn text-uppercase">buy now</button>
+                </div>
+         <!-- for product  -->
+        </div>
+  
+      </section>
+
     <!-- footer section  -->
     <footer class="mt-5 py-5">
         <div class="row container mx-auto pt-5">
@@ -308,6 +439,6 @@
     }
 </script>
 
-
+<script src="script.js"></script>
 </body>
 </html>
