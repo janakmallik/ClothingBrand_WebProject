@@ -187,6 +187,12 @@ button {
     background-color:blue;
 }
 
+.buy-btn:hover{
+    background-color:blue;
+}
+
+
+
 /* .car_btw:hover{
     background-color: rgba(128, 128, 128, 0.192);
 } */
