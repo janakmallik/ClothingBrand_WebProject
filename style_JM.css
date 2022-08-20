@@ -170,6 +170,19 @@ button {
     transition: 0.3s ease;
 }
 
+.btn {
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: #1d1d1d;
+    color:  aliceblue;
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
 .sp_nw:hover{
     background-color:blue;
 }
