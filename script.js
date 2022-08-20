@@ -31,3 +31,7 @@
   //     document.getElementById("src_btn").click();
   //   }
   // });
+
+  function updateTextInput(val) {
+    document.getElementById('textInput').value=val+"%"; 
+  }
