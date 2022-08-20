@@ -21,7 +21,7 @@ body{
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link {
-    padding: 0 20px;
+    padding: 0 15px;
     color: black;
     cursor: pointer; 
     transition: 0.3s ease;
